@@ -1,0 +1,38 @@
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+.btn_good,
+.btn_neutral,
+.btn_bad {
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+.btn_good {
+  background-color: #4caf50;
+}
+.btn_good:hover {
+  background-color: #45a049;
+}
+.btn_neutral {
+  background-color: #808080;
+}
+.btn_neutral:hover {
+  background-color: #6d6d6d;
+}
+.btn_bad {
+  background-color: lightcoral;
+}
+.btn_bad:hover {
+  background-color: rgb(242, 99, 99);
+}

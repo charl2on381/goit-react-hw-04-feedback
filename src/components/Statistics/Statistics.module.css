@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  width: 500px;
+  margin-bottom: 10px;
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat h3 {
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.number_good,
+.number_neutral,
+.number_bad,
+.number_total {
+  font-size: 24px;
+  font-weight: bold;
+}
+.number_good {
+  color: #4caf50;
+}
+.number_neutral {
+  color: #6d6d6d;
+}
+.number_bad {
+  color: rgb(242, 99, 99);
+}
+.number_total {
+  color: black;
+}
